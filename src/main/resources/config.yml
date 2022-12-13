@@ -1,0 +1,36 @@
+debug: false
+broadcast-debug: false
+
+group_prefixes:
+  default: '&7[&fDefault&7] &f'
+
+messages:
+  unknown_command: '&cNieznana komenda!'
+  reload: '&cPomyslnie przeładowano konfiguracje!'
+
+commands:
+  pomoc:
+    type: text
+    groups:
+      - default
+    output:
+      - 'default'
+      - 'komenda typu TEXt do ktorej trzeba miec minimum range default'
+      - '3 linia'
+      - '4 linia'
+
+  pomoc2:
+    type: text
+    groups:
+      - moderator
+    output:
+      - 'moderator'
+      - 'komenda typu TEXt do ktorej trzeba miec minimum range moderator'
+      - '3 linia'
+      - '4 linia'
+
+  wyspa-stworz:
+    type: redirect
+    groups:
+      - default
+    output: 'is create'

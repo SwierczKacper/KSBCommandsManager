@@ -1,0 +1,14 @@
+name: KSBCommandsManager
+version: '${project.version}'
+main: pl.swierczkacper.ksbcommandsmanager.KSBCommandsManager
+api-version: 1.19
+authors: [ SwierczKacper ]
+description: Spigot plugin for managing commands
+website: swierczkacper.pl
+
+depend:
+  - Vault
+
+commands:
+  ksbcommandsmanager:
+    description: KSBCommandsManager commands
